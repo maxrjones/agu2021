@@ -19,4 +19,15 @@ Processing and plotting spatial data are essential tasks across many scientific 
 
 ## License
 
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
 ## Acknowledgements
+
+The development of PyGMT has been supported by NSF grants
+[OCE-1558403](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1558403) and
+[EAR-1948603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1948602).
+M.R. Jones has been supported by [EAR-1948602](https://nsf.gov/awardsearch/showAward?AWD_ID=19486020).
+PyGMT has benefited from the contributions of [numerous developers](https://github.com/GenericMappingTools/pygmt/blob/main/AUTHORS.md)
+and [community members](https://forum.generic-mapping-tools.org/).
