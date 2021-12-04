@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+*.py[cd]
+
+# C extensions
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Visual Studio Code
+.vscode/
+
+# Environments
+.env
+
+# Backup copies / swap files
+*~
+.*.swp
+
+# macOS
+.DS_Store
+
+*.nc
+*.tif
