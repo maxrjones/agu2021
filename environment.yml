@@ -1,0 +1,8 @@
+name: agu2021
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - pygmt
+    - jupyter
+    - make
