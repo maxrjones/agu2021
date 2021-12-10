@@ -27,9 +27,13 @@ Why use PyGMT?
 - Clip, cut, fill, and sample grids
 - Filter grids in the space or time domains
 
-*Image showing grdtrack example with link to Jupyter notebook*
+**Stacking automatically generated cross-profiles**
 
-*Image showing spherical harmonic model example with link to Jupyter notebook*
+<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/cross_profiles.ipynb"><img src="../examples/figures/profiles_ex33.png" width="900p" alt="Stacking automatically generated cross-profiles example"/></a>
+
+**Evaluation of spherical harmonics coefficients**
+
+<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/venus_harmonics.ipynb"><img src="../examples/figures/harmonics_ex39.png" width="900p" alt="Evaluation of spherical harmonics coefficients"/></a>
 
 ## Data visualization
 
@@ -89,6 +93,6 @@ Spread the word, star the project on GitHub, and cite PyGMT when appropriate!
 
 ## Gallery slideshow
 
-*Focal mechanisms plot*
+<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/velocity.ipynb"><img src="../examples/figures/vectors.png" width="900p" alt="Plotting velocity vectors"/></a>
 
-*Velocity vectors plot*
+<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/focal_mechanisms.ipynb"><img src="../examples/figures/focal_mechanisms.png" width="900p" alt="Plotting focal mechanisms"/></a>
