@@ -93,6 +93,6 @@ Spread the word, star the project on GitHub, and cite PyGMT when appropriate!
 
 ## Gallery slideshow
 
-<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/velocity.ipynb"><img src="../examples/figures/vectors.png" width="900p" alt="Plotting velocity vectors"/></a>
+<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/velocity.ipynb"><img src="../examples/figures/vectors.png" width="900p" alt="Plotting velocity vectors using PyGMT"/></a>
 
-<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/focal_mechanisms.ipynb"><img src="../examples/figures/focal_mechanisms.png" width="900p" alt="Plotting focal mechanisms"/></a>
+<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/focal_mechanisms.ipynb"><img src="../examples/figures/focal_mechanisms.png" width="900p" alt="Plotting focal mechanisms using PyGMT"/></a>
