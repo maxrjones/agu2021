@@ -19,11 +19,12 @@
 # This example is based on the Generic Mapping Tool's example 33 (https://docs.generic-mapping-tools.org/latest/gallery/ex33.html).
 #
 # Data from Tozer et al., 2019 (http://dx.doi.org/10.1029/2019EA000658) provided via `earth_relief_01m`.
+#
+# import numpy as np
+# import pandas as pd
 
 # %%
 import pygmt
-import numpy as np
-import pandas as pd
 
 # %%
 # Extract a subset of earth_relief_01m for the East Pacific Rise
@@ -34,7 +35,13 @@ grid = pygmt.grdcut("@earth_relief_01m", region=[-118, -107, -49, -42])
 fig = pygmt.Figure()
 pygmt.makecpt(cmap="bukavu", series=[-5000, -2000])
 fig.grdimage(grid=grid, projection="M15c", shading="a15+ne0.75", frame=True)
-fig.text(text=r"Data from Tozer et al., 2019", position="cBR", offset="0/-1.2c", font="12p,Helvetica", no_clip=True)
+fig.text(
+    text=r"Data from Tozer et al., 2019",
+    position="cBR",
+    offset="0/-1.2c",
+    font="12p,Helvetica",
+    no_clip=True,
+)
 fig.show()
 
 # %%
@@ -49,7 +56,13 @@ fig.show()
 
 # %%
 # Generate cross-profiles 400 km long, spaced 10 km, samped every 2km and stack these using the median
-pygmt.grdtrack(points=points, grid=grid, crossprofile="400k/2k/10k+v", stack='m+s"stack.txt"', outfile="profiles.txt")
+pygmt.grdtrack(
+    points=points,
+    grid=grid,
+    crossprofile="400k/2k/10k+v",
+    stack='m+s"stack.txt"',
+    outfile="profiles.txt",
+)
 
 # %%
 # Plot the cross-profiles
@@ -58,8 +71,12 @@ fig.show()
 
 # %%
 # Create an envelope
-upper = pd.read_csv("stack.txt", sep="\t", header=None, usecols=[0,5], names=["Distance", "Value"])
-lower = pd.read_csv("stack.txt", sep="\t", header=None, usecols=[0,6], names=["Distance", "Value"])
+upper = pd.read_csv(
+    "stack.txt", sep="\t", header=None, usecols=[0, 5], names=["Distance", "Value"]
+)
+lower = pd.read_csv(
+    "stack.txt", sep="\t", header=None, usecols=[0, 6], names=["Distance", "Value"]
+)
 envelope = pd.concat([upper, lower[::-1]], ignore_index=True)
 
 # %%
@@ -69,14 +86,14 @@ fig.plot(
     region=[-200, 200, -3500, -2000],
     projection="X15c/7.5c",
     color="lightgrey",
-    frame=['xafg1000+l"Distance from ridge (km)"','yaf+l"Depth (m)"', "WSNE"],
+    frame=['xafg1000+l"Distance from ridge (km)"', 'yaf+l"Depth (m)"', "WSNE"],
 )
 fig.plot(
     data="stack.txt",
     region=[-200, 200, -3500, -2000],
     projection="X15c/7.5c",
     pen="3p",
-    frame=['xafg1000+l"Distance from ridge (km)"','yaf+l"Depth (m)"', "WSNE"]
+    frame=['xafg1000+l"Distance from ridge (km)"', 'yaf+l"Depth (m)"', "WSNE"],
 )
 fig.show()
 

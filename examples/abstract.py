@@ -30,8 +30,8 @@
 import pygmt
 
 # %%
-#Set the resolution to 2 arc minutes (30s used in abstract)
-res = "02m" 
+# Set the resolution to 2 arc minutes (30s used in abstract)
+res = "02m"
 
 # %%
 # Use the location of the Sun at 6.30am (sunrise) on 13 Dec 2021, Central Standard Time (UTC-6)
@@ -43,7 +43,9 @@ res = "02m"
 
 # %%
 # Create an intensity grid based on a DEM so that we can see structures in the oceans
-pygmt.grdgradient(grid=f"@earth_relief_{res}", normalize="t0.5", azimuth=45, outgrid="intens.nc")
+pygmt.grdgradient(
+    grid=f"@earth_relief_{res}", normalize="t0.5", azimuth=45, outgrid="intens.nc"
+)
 # Mask so that the DEM-based intensity is NaN on land
 # !gmt grdmath @earth_mask_$res 0 EQ 0 NAN intens.nc MUL = intens_ocean.nc
 
@@ -59,7 +61,7 @@ fig.grdimage(
     grid="view.tif",
     # General Perspective lon0/lat0/width+z<altitude>+a<azimuth>+t<tilt>+w<twist>+v<vwidth>/<vheight>
     projection="G-90.0631825/29.9395386/25c+z3000+a345+t10+w-30+v90/60",
-    verbose="e"
+    verbose="e",
 )
 fig.logo(position="jTR+w3c")
 fig.show()

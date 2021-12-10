@@ -24,9 +24,9 @@
 import pygmt
 
 # %%
-#Set the resolution to 2 arc minutes
-res = "05m" 
-region="-270/90/-90/90"
+# Set the resolution to 2 arc minutes
+res = "05m"
+region = "-270/90/-90/90"
 
 # %%
 # Use the location of the Sun at 09:00 on 13 Dec 2021, Central Standard Time (UTC-6)

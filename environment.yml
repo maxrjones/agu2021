@@ -6,4 +6,9 @@ dependencies:
     - pygmt
     - jupyter
     - jupytext
+    # Development dependencies
     - make
+    - black
+    - blackdoc
+    - docformatter
+    - isort>=5

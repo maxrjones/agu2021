@@ -25,9 +25,15 @@ import pygmt
 # %%
 # Evaluate the global grid based on a spherical harmonic model for the topography of Venus based on Wieczorek (2007)
 # Use three sets of upper order/degrees (30, 90, and 180)
-grid_30d = pygmt.sph2grd(data="@VenusTopo180.txt", spacing=1, region="g", N="g", F="1/1/25/30")
-grid_90d = pygmt.sph2grd(data="@VenusTopo180.txt", spacing=1, region="g", N="g", F="1/1/25/90")
-grid_180d = pygmt.sph2grd(data="@VenusTopo180.txt", spacing=1, region="g", N="g", F="1/1/25/180")
+grid_30d = pygmt.sph2grd(
+    data="@VenusTopo180.txt", spacing=1, region="g", N="g", F="1/1/25/30"
+)
+grid_90d = pygmt.sph2grd(
+    data="@VenusTopo180.txt", spacing=1, region="g", N="g", F="1/1/25/90"
+)
+grid_180d = pygmt.sph2grd(
+    data="@VenusTopo180.txt", spacing=1, region="g", N="g", F="1/1/25/180"
+)
 
 # %%
 # Create a figure
@@ -38,15 +44,33 @@ pygmt.config(PS_PAGE_COLOR="#efeeee", GMT_VERBOSE="e")
 pygmt.grd2cpt(cmap="vik+h0", grid=grid_90d, nlevels=True)
 # Plot the first example on the bottom right
 fig.shift_origin(xshift="7.5c")
-fig.grdimage(grid=grid_30d, shading="a45+nt0.75", projection="G90/30/12c", frame="g", region="g", cmap=True)
+fig.grdimage(
+    grid=grid_30d,
+    shading="a45+nt0.75",
+    projection="G90/30/12c",
+    frame="g",
+    region="g",
+    cmap=True,
+)
 # Add citation
-fig.text(text=r"Data based on Wieczorek (2007)", position="cBL", offset="-3.5c/0c", font="12p,Helvetica", no_clip=True)
+fig.text(
+    text=r"Data based on Wieczorek (2007)",
+    position="cBL",
+    offset="-3.5c/0c",
+    font="12p,Helvetica",
+    no_clip=True,
+)
 # Create a colorbar
-fig.colorbar(frame=['xaf','y+l"m"'], position="x3c/-0.5c+jTC+w13c/0.25c+h")
+fig.colorbar(frame=["xaf", 'y+l"m"'], position="x3c/-0.5c+jTC+w13c/0.25c+h")
 # Plot the second example shifted upwards with a title
 fig.shift_origin(xshift="-3c", yshift="5c")
 pygmt.config(MAP_TITLE_OFFSET="5.5c")
-fig.grdimage(grid=grid_90d, shading="a45+nt0.75", frame=["g",'+t"Venus Spherical Harmonic Model"'], cmap=True)
+fig.grdimage(
+    grid=grid_90d,
+    shading="a45+nt0.75",
+    frame=["g", '+t"Venus Spherical Harmonic Model"'],
+    cmap=True,
+)
 # Plot the third example shifted updwards
 fig.shift_origin(xshift="-3c", yshift="5c")
 fig.grdimage(grid=grid_180d, shading="a45+nt0.75", frame="g", cmap=True)
