@@ -84,7 +84,7 @@ with pygmt.clib.Session() as lib:
 fig.shift_origin(yshift="h+0.3i")
 # Plot earth relief data for the region
 fig.grdimage(
-    grid="@earth_relief_10m",
+    grid="@earth_relief",
     cmap="oleron",
     shading="+nt1.2",
     region=[-75.1, -63, -34.44, -30.35],
