@@ -3,7 +3,7 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - pygmt
+    - pygmt=0.5.0
     - jupyter
     - jupytext
     # Development dependencies
