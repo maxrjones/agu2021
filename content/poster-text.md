@@ -66,6 +66,8 @@ Why use PyGMT?
 
 ### Introduction to PyGMT YouTube tutorial
 
+<a href="https://youtu.be/Kb6TYvZcI_c"><img src="_static/youtube_tutorial_frame.png" width="900p" alt="Quick intro to PyGMT YouTube video"/></a>
+
 ### Tutorials for learning concepts
 
 <a href="https://www.pygmt.org/latest/tutorials/index.html"><img src="_static/tutorial_index_basics.png" width="900p" alt="Index of 'basic' PyGMT tutorials"/></a>
