@@ -45,7 +45,7 @@ fig = pygmt.Figure()
 #
 # - The ``region`` parameter.
 #   - This parameter controls the boundaries of the plot, usually
-#     by accepting an array in the form `[xmin, xmax, ymin, ymax]`.
+#     by accepting a list in the form `[xmin, xmax, ymin, ymax]`.
 #   - There are a few special options for the ``region`` parameter,
 #     which are detailed in the [region tutorial](https://www.pygmt.org/v0.5.0/tutorials/regions.html).
 # - The ``projection`` parameter.
