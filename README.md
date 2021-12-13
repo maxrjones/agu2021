@@ -8,6 +8,7 @@
 | Authors | [Meghan Jones](https://github.com/meghanrjones), [Michael Grund](https://github.com/michaelgrund), [William Schlitzer](https://github.com/willschlitzer), [Wei Ji Leong](https://github.com/weiji14), [Dongdong Tian](https://seisman.info/), [Jiayuan Yao](https://github.com/core-man), [Leonardo Uieda](http://www.leouieda.com/) | 
 | When | Friday, 17 December 2021 16:21 - 16:24 CST (UTC-6) |
 | Where | AGU Conference Online Session |
+| Launch | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/meghanrjones/agu2021/HEAD) |
 
 ## Abstract
 
