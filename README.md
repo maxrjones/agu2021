@@ -5,11 +5,11 @@
 |---:|:---|
 | Session | [IN55C - Open-Source Software, Notebooks, and FAIR Software I eLightning](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session/140226) |
 | Abstract | [IN55C-08](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/916483) |
-| Authors | [Meghan Jones](https://github.com/meghanrjones), [Michael Grund](https://github.com/michaelgrund), [William Schlitzer](https://github.com/willschlitzer), [Wei Ji Leong](https://github.com/weiji14), [Dongdong Tian](https://seisman.info/), [Jiayuan Yao](https://github.com/core-man), [Leonardo Uieda](http://www.leouieda.com/) | 
+| Authors | [Max Jones](https://github.com/maxrjones), [Michael Grund](https://github.com/michaelgrund), [William Schlitzer](https://github.com/willschlitzer), [Wei Ji Leong](https://github.com/weiji14), [Dongdong Tian](https://seisman.info/), [Jiayuan Yao](https://github.com/core-man), [Leonardo Uieda](http://www.leouieda.com/) | 
 | When | Friday, 17 December 2021 16:21 - 16:24 CST (UTC-6) |
 | Where | AGU Conference Online Session |
 | Poster | [iPoster platform](https://agu2021fallmeeting-agu.ipostersessions.com/?s=94-C4-D2-7C-51-67-78-1E-FC-65-B9-40-08-44-C5-D7) |
-| Launch | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/meghanrjones/agu2021/HEAD) |
+| Launch | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxrjones/agu2021/HEAD) |
 
 ## Abstract
 
