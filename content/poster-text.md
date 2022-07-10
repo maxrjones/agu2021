@@ -1,6 +1,6 @@
 # PyGMT: An open-source Python library for geospatial processing, analysis, and visualization
 
- Meghan Jones, Michael Grund, Will Schlitzer, Wei Ji Leong, Dongdong Tian, Jiayuan Yao, and Leonardo Uieda
+ Max Jones, Michael Grund, Will Schlitzer, Wei Ji Leong, Dongdong Tian, Jiayuan Yao, and Leonardo Uieda
 
 ## Overview
 
@@ -29,11 +29,11 @@ Why use PyGMT?
 
 **Stacking automatically generated cross-profiles**
 
-<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/cross_profiles.ipynb"><img src="../examples/figures/profiles_ex33.png" width="900p" alt="Stacking automatically generated cross-profiles example"/></a>
+<a href="https://github.com/maxrjones/agu2021/blob/main/examples/cross_profiles.ipynb"><img src="../examples/figures/profiles_ex33.png" width="900p" alt="Stacking automatically generated cross-profiles example"/></a>
 
 **Evaluation of spherical harmonics coefficients**
 
-<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/venus_harmonics.ipynb"><img src="../examples/figures/harmonics_ex39.png" width="900p" alt="Evaluation of spherical harmonics coefficients"/></a>
+<a href="https://github.com/maxrjones/agu2021/blob/main/examples/venus_harmonics.ipynb"><img src="../examples/figures/harmonics_ex39.png" width="900p" alt="Evaluation of spherical harmonics coefficients"/></a>
 
 ## Data visualization
 
@@ -95,6 +95,6 @@ Spread the word, star the project on GitHub, and cite PyGMT when appropriate!
 
 ## Gallery slideshow
 
-<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/focal_mechanisms.ipynb"><img src="../examples/figures/focal_mechanisms.png" width="900p" alt="Plotting focal mechanisms using PyGMT"/></a>
+<a href="https://github.com/maxrjones/agu2021/blob/main/examples/focal_mechanisms.ipynb"><img src="../examples/figures/focal_mechanisms.png" width="900p" alt="Plotting focal mechanisms using PyGMT"/></a>
 
-<a href="https://github.com/meghanrjones/agu2021/blob/main/examples/velocity.ipynb"><img src="../examples/figures/vectors.png" width="900p" alt="Plotting velocity vectors using PyGMT"/></a>
+<a href="https://github.com/maxrjones/agu2021/blob/main/examples/velocity.ipynb"><img src="../examples/figures/vectors.png" width="900p" alt="Plotting velocity vectors using PyGMT"/></a>
